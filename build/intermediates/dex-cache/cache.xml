@@ -3,129 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/home/john/.android/build-cache/b16756481ea805dad841a1ed67601b4ead9786fc/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5fa8dd90d1454232a49adf6d3297ad4ec964cec3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/f0ef8ae72b03c05799ba10cbae45f6b674ceca75/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5aff6afff26109d3fd23fbc149ba1bdff1c9e3ae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/502f0cd1f5792770c0a742e44dc051b24003614b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b88c7e6128dc3cbad8581be6fa48693acf05ae5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/54e51eab186b15d65f11355a90b5f92df37feaff/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_04a0721c5683c7d24c3ebdfd0f3d8eab6241a72a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/5dc0d43cb68289fde9d74daf084e5c8f96a5da1f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f53546610a04856237c15dc4cf5a96c7538c3f0f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/opt/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_4458f496ac2fe76b424df028ae9e70b86737b9b2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/c8d2734cbc8cf2e837ae9cce0d7cb30a5700971e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_233a66b44ec1d4e3a6f2872055eef04a14b54f38/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/johnyu/Desktop/workspace/WiFiKeeper/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e11d10d01b2f71be130ae4aee6fda7ed40f62dfb/classes.dex" />
+        <dex dex="/Users/johnyu/Desktop/workspace/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2c9218ae511a4fed6b93bc53230e58161b576597/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/johnyu/Desktop/workspace/WiFiKeeper/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="de9b86dad57839e5a2f3d05ec1bfa0573740f037">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d19f1a6a3d41de382cda08e50e50829d5a8b932c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/0ef957a281d1127d27d6ce51dfafa1e7e604ff02/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_280fd415a74c47600323e0d71d5e339af1711f0a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/opt/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_3865b9b606bf78a4c46d9fa0cef219c9b39599b9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/ce4195d62267f4aaa2f15a97fc4cb3f6d864d94f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e4a90d135ae06894ed9a1a2167c663205da26067/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/d664302682e8531e8e2c6a2466b7e0e74ce78790/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a335b1556c5fee55e05108ddca98b7fe7c0d2eb9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/john/.android/build-cache/2451c1ff64f6a4239254163c114f272da11d1bf8/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/media/john/软件/AndroidStudioProjects/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_329689a99e1b6d3821cca3b00ad5d37b30ba4640/classes.dex" />
+        sha1="c189b9a67a1280bb7adf14aefccbba271870e405">
+        <dex dex="/Users/johnyu/Desktop/workspace/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_54be1fb3dc6482829115f2c0a21ed479e5e361ea/classes.dex" />
     </item>
 
 </items>
