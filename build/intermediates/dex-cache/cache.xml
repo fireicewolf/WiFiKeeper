@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/johnyu/Desktop/workspace/WiFiKeeper/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="D:\AndroidStudioProjects\WiFiKeeper\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/johnyu/Desktop/workspace/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2c9218ae511a4fed6b93bc53230e58161b576597/classes.dex" />
+        <dex dex="D:\AndroidStudioProjects\WiFiKeeper\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0d311d0d34f7bab20fd1714d35b881b0c2c7f3d5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/johnyu/Desktop/workspace/WiFiKeeper/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="D:\AndroidStudioProjects\WiFiKeeper\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="c189b9a67a1280bb7adf14aefccbba271870e405">
-        <dex dex="/Users/johnyu/Desktop/workspace/WiFiKeeper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_54be1fb3dc6482829115f2c0a21ed479e5e361ea/classes.dex" />
+        sha1="c7e8471875e0ffe458eaf4929aaf29429f5ed166">
+        <dex dex="D:\AndroidStudioProjects\WiFiKeeper\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_338437bb0408da0a4723c3193964d316e2c9ac74\classes.dex" />
     </item>
 
 </items>
