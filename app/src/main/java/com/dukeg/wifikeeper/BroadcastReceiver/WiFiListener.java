@@ -6,14 +6,13 @@ import android.content.Intent;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.dukeg.wifikeeper.LogUtils.Logger;
 
 /**
  * Created by John on 8/29/17.
- * This is a broadcast receiver for wifi switch on/off
+ * This is a static method for Wi-Fi status broadcast receiver.
  */
 
 

@@ -19,12 +19,13 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".BroadcastReceiver.WiFiListener">
-            <intent-filter>
-                <action android:name="android.net.wifi.STATE_CHANGE"/>
-                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
-            </intent-filter>
-        </receiver>
+        <!--<receiver android:name=".BroadcastReceiver.WiFiListener">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.net.wifi.STATE_CHANGE"/>-->
+                <!--<action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <service android:name="com.dukeg.wifikeeper.Service.WiFiMonitor"></service>
     </application>
 
 </manifest>
