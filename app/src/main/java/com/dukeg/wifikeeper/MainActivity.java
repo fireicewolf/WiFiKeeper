@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.dukeg.wifikeeper.Service.WiFiMonitor;
+import com.dukeg.wifikeeper.service.wifiMonitor;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.start_service:
-                Intent startIntent = new Intent(this, WiFiMonitor.class);
+                Intent startIntent = new Intent(this, wifiMonitor.class);
                 startService(startIntent);
                 break;
             case R.id.stop_service:
-                Intent stopIntent = new Intent(this, WiFiMonitor.class);
+                Intent stopIntent = new Intent(this, wifiMonitor.class);
                 stopService(stopIntent);
                 break;
             default:

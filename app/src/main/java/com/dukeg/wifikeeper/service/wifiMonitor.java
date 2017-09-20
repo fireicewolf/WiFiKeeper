@@ -1,4 +1,4 @@
-package com.dukeg.wifikeeper.Service;
+package com.dukeg.wifikeeper.service;
 
 import android.app.Service;
 import android.content.Context;
@@ -7,32 +7,32 @@ import android.net.wifi.WifiManager;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 
-import com.dukeg.wifikeeper.BroadcastReceiver.WLANListener;
-import com.dukeg.wifikeeper.LogUtils.Logger;
+import com.dukeg.wifikeeper.BroadcastReceiver.wifiListener;
+import com.dukeg.wifikeeper.LogUtils.logger;
 
 /**
  * Created by John on 09/09/2017.
  * This is a service for WiFi broadcast receiver working.
  */
 
-public class WiFiMonitor extends Service{
+public class wifiMonitor extends Service{
 
-    private WLANListener listener;
+    private wifiListener listener;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        Logger.d("onCreate() executed");
+        logger.d("onCreate() executed");
 
         final WifiManager mWifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
 
-        listener = new WLANListener(this);
-        listener.register(new WLANListener.WLANStateListener() {
+        listener = new wifiListener(this);
+        listener.register(new wifiListener.WLANStateListener() {
 
             @Override
             public void onStateDisabled() {
                 if (!mWifiManager.isWifiEnabled()) {
-                    Logger.d("重新打开WiFi开关");
+                    logger.d("重新打开WiFi开关");
                     mWifiManager.setWifiEnabled(true);
                 }
             }
@@ -53,14 +53,14 @@ public class WiFiMonitor extends Service{
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Logger.d("onStartCommand() executed");
+        logger.d("onStartCommand() executed");
         return super.onStartCommand(intent, flags, startId);
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
-        Logger.d("onDestroy() executed");
+        logger.d("onDestroy() executed");
         if (listener != null) {
             listener.unregister();
         }

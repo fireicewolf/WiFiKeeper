@@ -9,7 +9,7 @@ import com.dukeg.wifikeeper.BuildConfig;
  * This is a logger for debug version.
  */
 
-public class Logger {
+public class logger {
     private static final boolean isDebug = BuildConfig.DEBUG;
 
     private static final String TAG = "WiFi_Keeper";

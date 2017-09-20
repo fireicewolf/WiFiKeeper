@@ -14,18 +14,10 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!--<receiver android:name=".BroadcastReceiver.WiFiListener">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.net.wifi.STATE_CHANGE"/>-->
-                <!--<action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>-->
-            <!--</intent-filter>-->
-        <!--</receiver>-->
-        <service android:name="com.dukeg.wifikeeper.Service.WiFiMonitor"></service>
+        <service android:name="com.dukeg.wifikeeper.service.wifiMonitor" />
     </application>
-
 </manifest>

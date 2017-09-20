@@ -21,13 +21,13 @@ android {
         debug {
             keyAlias 'DukeG'
             keyPassword 'YQhk1123581321,.'
-            storeFile file('/Users/johnyu/Desktop/workspace/JohnYu.jks')
+            storeFile file('D:/AndroidStudioProjects/JohnYu.jks')
             storePassword 'YQhk1123581321,.'
         }
         release {
             keyAlias 'DukeG'
             keyPassword 'YQhk1123581321,.'
-            storeFile file('/Users/johnyu/Desktop/workspace/JohnYu.jks')
+            storeFile file('D:/AndroidStudioProjects/JohnYu.jks')
             storePassword 'YQhk1123581321,.'
         }
     }

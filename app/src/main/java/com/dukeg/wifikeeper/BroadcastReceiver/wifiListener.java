@@ -7,20 +7,20 @@ import android.content.IntentFilter;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
-import com.dukeg.wifikeeper.LogUtils.Logger;
+import com.dukeg.wifikeeper.LogUtils.logger;
 
 /**
  * Created by John on 09/09/2017.
  * This is a dynamic method for Wi-Fi status broadcast receiver.
  */
 
-public class WLANListener {
+public class wifiListener {
 
     private Context mContext;
     private WLANBroadcastReceiver receiver;
     private WLANStateListener mWLANStateListener;
 
-    public WLANListener(Context context) {
+    public wifiListener(Context context) {
         mContext = context;
         receiver = new WLANBroadcastReceiver();
     }
@@ -52,13 +52,13 @@ public class WLANListener {
                 switch (switchState) {
                     case WifiManager.WIFI_STATE_DISABLED:
                         if (mWLANStateListener != null) {
-                            Logger.d("Wi-Fi开关关闭");
+                            logger.d("Wi-Fi开关关闭");
                             mWLANStateListener.onStateDisabled();
                         }
                         break;
                     case WifiManager.WIFI_STATE_ENABLED:
                         if (mWLANStateListener != null) {
-                            Logger.d("Wi-Fi开关打开");
+                            logger.d("Wi-Fi开关打开");
                             mWLANStateListener.onStateEnabled();
                         }
                         break;
@@ -71,14 +71,14 @@ public class WLANListener {
                 //wifi是否连接上
                 if(WifiManager.NETWORK_STATE_CHANGED_ACTION.equals(action)){
                     if(mNetworkInfo.getState().equals(NetworkInfo.State.DISCONNECTED)){
-                        Logger.d("Wi-Fi网络连接断开");
+                        logger.d("Wi-Fi网络连接断开");
                         mWLANStateListener.onStateDisconnected();
                     }
                     else if(mNetworkInfo.getState().equals(NetworkInfo.State.CONNECTED)){
                         WifiInfo wifiInfo = mWifiManager.getConnectionInfo();
                         //获取当前wifi名称
                         String currentWifiSSID = wifiInfo.getSSID();
-                        Logger.d("连接到Wi-Fi网络 " + currentWifiSSID);
+                        logger.d("连接到Wi-Fi网络 " + currentWifiSSID);
                         mWLANStateListener.onStateConnected();
                     }
                 }
